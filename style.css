@@ -50,3 +50,21 @@ table {
 /*------------------------------------*\
   #AUTHOR-CSS
 \*------------------------------------*/
+
+body {
+	background-color: cadetblue;
+	color: white;
+	font-family: 'PT Sans', sans-serif;
+}
+
+h1 {
+	font-size: 66px;
+	text-align: center;
+	padding-top: 50px;
+}
+
+#foundation-column {
+	width: 1500px;
+	height: 55px;
+	background: black;
+}
