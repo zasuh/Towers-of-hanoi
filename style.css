@@ -60,10 +60,30 @@ body {
 h1 {
 	font-size: 66px;
 	text-align: center;
-	padding-top: 50px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.stacks {
+	position: relative;
+	width: 1700px;
+	height: 750px;
+	background: white;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#left-column {
+	position: absolute;
+	height: 600px;
+	width: 55px;
+	background: black;
 }
 
 #foundation-column {
+	position: absolute;
+	top: 92.8%;
+	left: 5.5%;
 	width: 1500px;
 	height: 55px;
 	background: black;
