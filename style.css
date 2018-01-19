@@ -76,15 +76,35 @@ h1 {
 #left-column {
 	position: absolute;
 	height: 600px;
-	width: 55px;
+	width: 45px;
+	top: 13%;
+	left: 13%;
+	background: black;
+}
+
+#middle-column {
+	position: absolute;
+	height: 600px;
+	width: 45px;
+	top: 13%;
+	left: 48%;
+	background: black;
+}
+
+#right-column {
+	position: absolute;
+	height: 600px;
+	width: 45px;
+	top: 13%;
+	left: 83%;
 	background: black;
 }
 
 #foundation-column {
 	position: absolute;
 	top: 92.8%;
-	left: 5.5%;
-	width: 1500px;
+	left: 2.9%;
+	width: 1600px;
 	height: 55px;
 	background: black;
 }
