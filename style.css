@@ -51,6 +51,10 @@ table {
   #AUTHOR-CSS
 \*------------------------------------*/
 
+/*------------------------------------*\
+  #BASE-CSS
+\*------------------------------------*/
+
 body {
 	background-color: cadetblue;
 	color: white;
@@ -63,6 +67,10 @@ h1 {
 	padding-top: 20px;
 	padding-bottom: 10px;
 }
+
+/*------------------------------------*\
+  #SHAPES
+\*------------------------------------*/
 
 .stacks {
 	position: relative;
