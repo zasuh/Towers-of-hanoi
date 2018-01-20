@@ -119,11 +119,21 @@ h1 {
 }
 
 #percent-50-width {
-	position: absolute;
+	position: relative;
 	height: 30px;
 	width: 200px;
 	top: 95%;
-	
+	right: 75px;
+	background: wheat;
+	border: 2px solid black;
+}
+
+#percent-40-width {
+	position: absolute;
+	height: 30px;
+	width: 150px;
+	top: 89.5%;
+	right: 75px;
 	background: wheat;
 	border: 2px solid black;
 }
