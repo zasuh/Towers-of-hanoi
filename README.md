@@ -1,6 +1,6 @@
 # TOWERS OF HANOI #
 
-![](https://imgur.com/a/hPnA2)
+![](https://imgur.com/SPeQTrh)
 
 ### Introduction ###
 An online Towers of hanoi solver. The user selects the number of blocks between 5-10, once the number has been selected, clicking start solves the puzzle.
