@@ -56,6 +56,7 @@ table {
 \*------------------------------------*/
 
 body {
+	height: 100%;
 	background-color: cadetblue;
 	color: white;
 	font-family: 'PT Sans', sans-serif;
@@ -81,7 +82,7 @@ h1 {
 	margin-right: auto;
 }
 
-#left-column {
+.left-column {
 	position: absolute;
 	height: 600px;
 	width: 45px;
@@ -90,7 +91,7 @@ h1 {
 	background: black;
 }
 
-#middle-column {
+.middle-column {
 	position: absolute;
 	height: 600px;
 	width: 45px;
@@ -99,7 +100,7 @@ h1 {
 	background: black;
 }
 
-#right-column {
+.right-column {
 	position: absolute;
 	height: 600px;
 	width: 45px;
@@ -108,11 +109,21 @@ h1 {
 	background: black;
 }
 
-#foundation-column {
+.foundation-column {
 	position: absolute;
 	top: 92.8%;
 	left: 2.9%;
 	width: 1600px;
 	height: 55px;
 	background: black;
+}
+
+#percent-50-width {
+	position: absolute;
+	height: 30px;
+	width: 200px;
+	top: 95%;
+	
+	background: wheat;
+	border: 2px solid black;
 }
