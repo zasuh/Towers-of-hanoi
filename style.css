@@ -73,11 +73,25 @@ h1 {
   #SHAPES
 \*------------------------------------*/
 
+.stacks {
+	background-color: aliceblue;
+	width: 1500px;
+	height: 500px;
+	margin: 0 auto;
+}
+
 .left-column {
-	color: brown;
+	background-color: brown;
 	width: 100px;
 	height: 100px;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
+}
+
+.percent-10-width {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background-color: black;
 }
