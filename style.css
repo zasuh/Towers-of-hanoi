@@ -80,6 +80,10 @@ h1 {
 	margin: 0 auto;
 }
 
+.columns {
+	text-align: center;
+}
+
 .left-column,
 .middle-column,
 .right-column {
@@ -91,6 +95,6 @@ h1 {
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
-	margin: 230px 1.5%;
+	margin: 230px 230px;
 }
 
