@@ -133,4 +133,59 @@ h1 {
 	left: 20%;
 	transform: translateX(-50%);
 	border-radius: 20px;
-  }
+	}
+
+#percent-60 {
+	position: absolute;
+	width: 110px;
+	height: 110px;
+	background-color: rgb(0, 255, 234);
+	top: 29.5%;
+	left: 20%;
+	transform: translateX(-50%);
+	border-radius: 20px;
+	}
+
+#percent-70 {
+	position: absolute;
+	width: 120px;
+	height: 120px;
+	background-color: rgb(251, 255, 0);
+	top: 29%;
+	left: 20%;
+	transform: translateX(-50%);
+	border-radius: 20px;
+	}
+
+#percent-80 {
+	position: absolute;
+	width: 130px;
+	height: 130px;
+	background-color: rgb(38, 0, 255);
+	top: 28.5%;
+	left: 20%;
+	transform: translateX(-50%);
+	border-radius: 20px;
+	}
+
+#percent-90 {
+	position: absolute;
+	width: 140px;
+	height: 140px;
+	background-color: rgb(247, 0, 255);
+	top: 28%;
+	left: 20%;
+	transform: translateX(-50%);
+	border-radius: 20px;
+	}
+
+#percent-100 {
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	background-color: rgb(0, 119, 255);
+	top: 27.5%;
+	left: 20%;
+	transform: translateX(-50%);
+	border-radius: 20px;
+	}
