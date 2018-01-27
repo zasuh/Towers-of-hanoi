@@ -191,12 +191,27 @@ h1 {
 	}
 
 /*------------------------------------*\
-  #DROPDOWN-MENU STYLES
+  #SELECTION STYLES
 \*------------------------------------*/
 
 .selection {
+	margin: 0 auto;
+	width: 1080px;
+}
+
+.dropdown {
 	display: inline-block;
 	list-style: none;
-	margin: 0 auto;
-	width: 100%;
+	width: 33.3%;
+	vertical-align: top;
+	float: left;
+	padding: 20px 15px 0 15px;
+}
+
+.start-button {
+	display: inline-block;
+	width: 33.3%;
+	vertical-align: top;
+	float: right;
+	padding: 20px 15px 0 15px;
 }
