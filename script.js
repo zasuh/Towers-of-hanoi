@@ -1,9 +1,7 @@
 //A function that takes away 5 blocks so 5 are left (player clicks 5 button)
-const btn5 = document.getElementById('btn-5');
-btn5.addEventListener('click', updateBlocks);
 
-function updateBlocks() {
-
+function fiveBlocks() {
+    const el = document.querySelector();
 }
 
 //A function that takes away 4 blocks so 6 are left (player clicks 6 button)
