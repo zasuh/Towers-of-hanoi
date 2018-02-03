@@ -1,9 +1,5 @@
 //A function that takes away 5 blocks so 5 are left (player clicks 5 button)
 
-function fiveBlocks() {
-    const el = document.querySelector();
-}
-
 //A function that takes away 4 blocks so 6 are left (player clicks 6 button)
 
 //A function that takes away 3 blocks so 7 are left (player clicks 7 button)
@@ -11,6 +7,11 @@ function fiveBlocks() {
 //A function that takes away 2 blocks so 8 are left (player clicks 8 button)
 
 //A function that takes away 1 block so 9 are left (player clicks 9 button)
+
+function nineBlocks() {
+    const el = document.getElementById('percent-100');
+    el.innerHTML.removeChild('percent-100');
+}
 
 //A function that puts all available blocks on screen (player hits 10 button)
 
