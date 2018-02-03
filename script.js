@@ -6,11 +6,18 @@
 
 //A function that takes away 2 blocks so 8 are left (player clicks 8 button)
 
+function eightBlocks() {
+    const el8 = document.getElementsByClassName('pillon-1')[0, 1];
+    el8.removeChild(document.querySelectorAll('#percent-100, #percent-90'));
+    return false;
+}
+
 //A function that takes away 1 block so 9 are left (player clicks 9 button)
 
 function nineBlocks() {
-    const el = document.getElementById('percent-100');
-    el.innerHTML.removeChild('percent-100');
+    const el9 = document.getElementsByClassName('pillon-1')[0];
+    el9.removeChild(document.getElementById('percent-100'));
+    return false;
 }
 
 //A function that puts all available blocks on screen (player hits 10 button)
