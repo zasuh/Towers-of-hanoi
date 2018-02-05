@@ -52,3 +52,7 @@ function resetBlocks() {
 }
 
 //Function that starts the solver
+
+function start () {
+    
+}
