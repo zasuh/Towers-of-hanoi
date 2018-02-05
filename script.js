@@ -56,3 +56,9 @@ function resetBlocks() {
 function start () {
     
 }
+
+// Move to pillon 1
+
+// Move to pillon 2
+
+// Move to pillon 3
