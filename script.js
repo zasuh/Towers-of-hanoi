@@ -59,6 +59,15 @@ const start = (disc, pil1, pil2, pil3) => {
     //pil2 is used to move discs from pil1 to pil3. Also known as the auxiliary pillon.
     //pil3 is the final destination of the discs.
 
-    
+    const disc10 = document.getElementById("percent-100");
+    const disc9 = document.getElementById("percent-90");
+    const disc8 = document.getElementById("percent-80");
+    const disc7 = document.getElementById("percent-70");
+    const disc6 = document.getElementById("percent-60");
+    const disc5 = document.getElementById("percent-50");
+    const disc4 = document.getElementById("percent-40");
+    const disc3 = document.getElementById("percent-30");
+    const disc2 = document.getElementById("percent-20");
+    const disc1 = document.getElementById("percent-10");
 }
 
