@@ -53,21 +53,13 @@ const resetBlocks = () => {
 
 //Function that starts the solver
 
-const start = (disc, pil1, pil2, pil3) => {
-    //disc is number of selected discs.
-    //pil1 is where the disc start aka where the discs are placed.
-    //pil2 is used to move discs from pil1 to pil3. Also known as the auxiliary pillon.
-    //pil3 is the final destination of the discs.
+const animateBlock = (block) => {
+    const currentTower = block.parentElement;
+    const nextMove = '';
+}
 
-    const disc10 = document.getElementById("percent-100");
-    const disc9 = document.getElementById("percent-90");
-    const disc8 = document.getElementById("percent-80");
-    const disc7 = document.getElementById("percent-70");
-    const disc6 = document.getElementById("percent-60");
-    const disc5 = document.getElementById("percent-50");
-    const disc4 = document.getElementById("percent-40");
-    const disc3 = document.getElementById("percent-30");
-    const disc2 = document.getElementById("percent-20");
-    const disc1 = document.getElementById("percent-10");
+const movingBlock = () => {
+    const pil1 = document.getElementsByClassName('pillon-1');
+    const bottomBlock = document.getElementById //get the element that is at the bottom of the stack?
 }
 
