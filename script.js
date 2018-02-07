@@ -53,12 +53,12 @@ const resetBlocks = () => {
 
 //Function that starts the solver
 
-const start = () => {
+const start = (disc, pil1, pil2, pil3) => {
+    //disc is number of selected discs.
+    //pil1 is where the disc start aka where the discs are placed.
+    //pil2 is used to move discs from pil1 to pil3. Also known as the auxiliary pillon.
+    //pil3 is the final destination of the discs.
+
     
 }
 
-// Move to pillon 1
-
-// Move to pillon 2
-
-// Move to pillon 3
