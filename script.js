@@ -56,10 +56,25 @@ const resetBlocks = () => {
 const animateBlock = (block) => {
     const currentTower = block.parentElement;
     const nextMove = '';
+
+    switch (currentTower.id) {
+        case 'pillon1': // Need condition for next move
+            next = 
+            break;
+        case 'pillon2': // Need condition for next move
+            next = 
+            break;
+        case 'pillon3': 
+            next = 
+            break;
+    }
+
+    currentTower.removeChild(block);
+    nextTower.appendChild(block);
 }
 
 const movingBlock = () => {
     const pil1 = document.getElementsByClassName('pillon-1');
-    const bottomBlock = document.getElementById //get the element that is at the bottom of the stack?
+    const bottomBlock = pil1.firstChild;
 }
 
