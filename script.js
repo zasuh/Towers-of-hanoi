@@ -54,7 +54,10 @@ const resetBlocks = () => {
 //Function that starts the solver
 
 const moveBlock = () => {
-
+    const parentPillon = document.getElementsByClassName('pillon-2');
+    const childBlock = document.getElementById('percent-100');
+    
+    return false;
 }
 
 const getBlock = () => {
