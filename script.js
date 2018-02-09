@@ -53,28 +53,15 @@ const resetBlocks = () => {
 
 //Function that starts the solver
 
-const animateBlock = (block) => {
-    const currentTower = block.parentElement;
-    const nextMove = '';
+const moveBlock = () => {
 
-    switch (currentTower.id) {
-        case 'pillon1': // Need condition for next move
-            next = 
-            break;
-        case 'pillon2': // Need condition for next move
-            next = 
-            break;
-        case 'pillon3': 
-            next = 
-            break;
-    }
-
-    currentTower.removeChild(block);
-    nextTower.appendChild(block);
 }
 
-const movingBlock = () => {
-    const pil1 = document.getElementsByClassName('pillon-1');
-    const bottomBlock = pil1.firstChild;
+const getBlock = () => {
+
+}
+
+const smart = () => {
+
 }
 
